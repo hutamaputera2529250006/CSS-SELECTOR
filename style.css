@@ -1,0 +1,24 @@
+/* 1. Universal selector - menghapus margin bawaan browser */
+*{
+   margin : 0;
+   padding : 0;
+}
+/* 2. Element Selector - Semua span akan miring*/
+span{
+   font-style: italic;
+}
+/* 3. Class Selector - Gunakan tanda titik (.) */
+.teks-biru{
+   color: dodgerblue;
+}
+/* 4. ID Selector - Gunakan tanda pagar (#)*/
+#judul-utama{
+   text-align:center;
+   text-transform: uppercase;
+   color:#333;
+}
+/* 5. Descendant Selector - Memilih p jika di dalam .kontainer */
+.kontainer p{
+   background-color: yellow;
+   font-weight: bold;
+}
